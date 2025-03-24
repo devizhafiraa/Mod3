@@ -71,7 +71,13 @@ public class PerpustakaanDevi {
         }
         
 
-        // Hitung royalti 10%
+ // Untuk mengitung royalti 10% yang ada pada nomor 3 saya menggunakan array agar semua buku bisa terupdate.
+// Untuk menghitung royalti 10% dari harga buku
+// - Pertama saya pakai for loop untuk menghitung tiap buku dari daftarBuku.
+// - Variabel hargaBuku menyimpan harga buku, saya buat bervariasi mulai dari Rp50.000 dan naik Rp1.000 tiap buku.
+// - Kemudian saya memanggil method BukunyaDevi.hitungRoyalti(hargaBuku), ini adalah method static dengan 1 parameter.
+// - Method ini otomatis menghitung 10% dari harga buku (misalnya harga 50.000, maka hasilnya 5.000).
+// - Nilai hasil perhitungan saya simpan di variabel royalti10, lalu ditampilkan ke layar.
 System.out.println("\nRoyalti 10% tiap buku:");
 for (int i = 0; i < daftarBuku.length; i++) {
     double hargaBuku = 50000 + (i * 1000);
@@ -79,7 +85,12 @@ for (int i = 0; i < daftarBuku.length; i++) {
     System.out.println("Buku ke-" + (i + 1) + " | Harga: Rp" + hargaBuku + " | Royalti (10%): Rp" + royalti10);
 }
 
-// Hitung royalti custom 15%
+// Hitung royalti custom 15% untujnomor 4
+// Untuk menghitung royalti dengan persen custom
+// - Sama seperti sebelumnya, saya menggunakan loop untuk setiap buku.
+// - Kali ini saya memakai method hitungRoyalti yang menerima 2 parameter (harga buku dan persen).
+// - Misalnya saya masukkan 15 sebagai persen, berarti royalti yang dihitung adalah 15% dari harga buku.
+// - Hasilnya disimpan dalam royaltiCustom lalu ditampilkan.
 System.out.println("\nRoyalti 15% tiap buku:");
 for (int i = 0; i < daftarBuku.length; i++) {
     double hargaBuku = 50000 + (i * 1000);
