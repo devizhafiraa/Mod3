@@ -1,70 +1,90 @@
 public class PerpustakaanDevi {
     public static void main(String[] args) {
-        // menggunakan array
-        //jumlah bukunya 35 
-        //7 kategori dan perkategori5
         BukunyaDevi[] daftarBuku = new BukunyaDevi[35];
 
-        daftarBuku[0] = new BukunyaDevi("Menyelami Teknologi", "Budi Raharjo", 2020, "Gramedia", "Teknologi", "Sinopsis tentang menyelami teknologi. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[1] = new BukunyaDevi("Revolusi Digital", "Soe Hok Gie", 2019, "Mizan", "Teknologi", "Sinopsis tentang revolusi digital.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[2] = new BukunyaDevi("Inovasi Tak Terbatas", "Arief Budiman", 2021, "Elex Media", "Teknologi", "Sinopsis tentang inovasi tak terbatas.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[3] = new BukunyaDevi("Teknologi Masa Depan", "Rani Suryani", 2022, "Indie Book", "Teknologi", "Sinopsis tentang teknologi masa depan.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[4] = new BukunyaDevi("Transformasi Digital", "Tomi Gunawan", 2020, "Alpukat", "Teknologi", "Sinopsis tentang transformasi digital.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[5] = new BukunyaDevi("AI Cerdas", "Fahmi Andri", 2021, "Deep Tech", "Teknologi", "Sinopsis tentang AI cerdas.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[6] = new BukunyaDevi("IoT untuk Pemula", "Yuniarto", 2019, "Smart Book", "Teknologi", "Sinopsis tentang IoT.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[7] = new BukunyaDevi("Cloud Computing", "Hana Lestari", 2020, "Digital Press", "Teknologi", "Sinopsis tentang cloud computing.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[8] = new BukunyaDevi("Big Data Era", "Joni Susanto", 2022, "Tech Media", "Teknologi", "Sinopsis tentang big data.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[9] = new BukunyaDevi("Blockchain Basics", "Dewi Kartika", 2019, "Crypto Books", "Teknologi", "Sinopsis tentang blockchain.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[10] = new BukunyaDevi("Keamanan Siber", "Ayu Pratiwi", 2020, "Cyber Press", "Teknologi", "Sinopsis tentang keamanan siber. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[11] = new BukunyaDevi("Robotika Modern", "Fajar Prabowo", 2021, "Robo Books", "Teknologi", "Sinopsis tentang robotika. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[12] = new BukunyaDevi("Pemrograman Java", "Rina Ayu", 2022, "Coding Press", "Teknologi", "Sinopsis tentang pemrograman Java. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[13] = new BukunyaDevi("Pemrograman Python", "Andi Syahputra", 2020, "Code World", "Teknologi", "Sinopsis tentang Python. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[14] = new BukunyaDevi("Pemrograman C++", "Wahyu Hermawan", 2019, "Programming Media", "Teknologi", "Sinopsis tentang C++. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[15] = new BukunyaDevi("Teknologi 5G", "Lia Kurniawati", 2021, "Network Press", "Teknologi", "Sinopsis tentang teknologi 5G. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[16] = new BukunyaDevi("Machine Learning", "Bambang Setiawan", 2020, "AI Books", "Teknologi", "Sinopsis tentang machine learning. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[17] = new BukunyaDevi("Data Science", "Novi Rahmawati", 2022, "Science Press", "Teknologi", "Sinopsis tentang data science.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[18] = new BukunyaDevi("Mobile Apps", "Dedi Santoso", 2019, "Mobile Tech", "Teknologi", "Sinopsis tentang mobile apps.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[19] = new BukunyaDevi("Web Development", "Indra Saputra", 2021, "Web Media", "Teknologi", "Sinopsis tentang web development.");
-        daftarBuku[20] = new BukunyaDevi("UX Design", "Desi Indah", 2020, "Creative Book", "Teknologi", "Sinopsis tentang UX design. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[21] = new BukunyaDevi("Game Development", "Eka Prasetya", 2022, "Game Press", "Teknologi", "Sinopsis tentang game development. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[22] = new BukunyaDevi("Teknologi Ramah Lingkungan", "Putri Sari", 2020, "Eco Tech", "Teknologi", "Sinopsis tentang teknologi ramah lingkungan.");
-        daftarBuku[23] = new BukunyaDevi("Teknologi Medis", "Taufik Hidayat", 2021, "Health Tech", "Teknologi", "Sinopsis tentang teknologi medis. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[24] = new BukunyaDevi("Virtual Reality", "Ika Fauziah", 2022, "VR Media", "Teknologi", "Sinopsis tentang virtual reality. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[25] = new BukunyaDevi("Augmented Reality", "Bayu Mahardika", 2020, "AR Books", "Teknologi", "Sinopsis tentang augmented reality.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[26] = new BukunyaDevi("Teknologi Satelit", "Sari Dewi", 2019, "Space Media", "Teknologi", "Sinopsis tentang teknologi satelit.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[27] = new BukunyaDevi("Smart Home", "Hendro Putra", 2021, "Smart Tech", "Teknologi", "Sinopsis tentang smart home. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[28] = new BukunyaDevi("Teknologi Pangan", "Ratna Sari", 2020, "Food Tech", "Teknologi", "Sinopsis tentang teknologi pangan.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[29] = new BukunyaDevi("Teknologi Energi", "Halim Gunawan", 2022, "Energy Media", "Teknologi", "Sinopsis tentang teknologi energi.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[30] = new BukunyaDevi("Cybersecurity Advanced", "Riza Rahman", 2020, "Cyber Book", "Teknologi", "Sinopsis tentang cybersecurity.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[31] = new BukunyaDevi("Wearable Technology", "Nurul Azizah", 2021, "WearTech", "Teknologi", "Sinopsis tentang wearable technology.Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[32] = new BukunyaDevi("Teknologi Otomotif", "Agus Santoso", 2019, "Auto Books", "Teknologi", "Sinopsis tentang teknologi otomotif. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[33] = new BukunyaDevi("Teknologi Transportasi", "Dwi Setyo", 2020, "Trans Book", "Teknologi", "Sinopsis tentang teknologi transportasi. Klo mau tau beli ya plis beli jgnn bajakan");
-        daftarBuku[34] = new BukunyaDevi("Smart City", "Rika Ayuningtyas", 2021, "City Tech", "Teknologi", "Sinopsis tentang smart city.bli lah capek aku suda ini kode ku ke cut dan gatau deh.");
-//buat menampilksn urutan buku dan jumlah kata sinopsis
-        for (int i = 0; i < daftarBuku.length; i++) {
-            if (daftarBuku[i] != null) {
-                daftarBuku[i].tampilkanBuku();
-                int jumlahKata = daftarBuku[i].hitungJumlahKataSinopsis();
-                System.out.println("Jumlah kata sinopsis buku ke-" + (i+1) + ": " + jumlahKata);
+        // Teknologi
+        daftarBuku[0] = new BukunyaDevi("Menyelami Teknologi", "Budi Raharjo", 2020, "Gramedia", "Teknologi", "Sinopsis tentang menyelami teknologi.Jangan beli buku bajakan kasian penulis .");
+        daftarBuku[1] = new BukunyaDevi("Revolusi Digital", "Soe Hok Gie", 2019, "Mizan", "Teknologi", "Sinopsis tentang revolusi digital.Jangan beli buku bajakan kasian penulis . TAMBAH APA YA KAK KOK BINGUNG");
+        daftarBuku[2] = new BukunyaDevi("Inovasi Tak Terbatas", "Arief Budiman", 2021, "Elex Media", "Teknologi", "Sinopsis tentang inovasi.Jangan beli buku bajakan kasian penulis .INOVASI UPDATE LAH YA KAYA UPINIPIN ");
+        daftarBuku[3] = new BukunyaDevi("Teknologi Masa Depan", "Rani Suryani", 2022, "Indie Book", "Teknologi", "Sinopsis teknologi masa depanJangan beli buku bajakan kasian penulis .UPINIPIN JADI PUTIH");
+        daftarBuku[4] = new BukunyaDevi("Transformasi Digital", "Tomi Gunawan", 2020, "Alpukat", "Teknologi", "Sinopsis transformasi digital. Jangan beli buku bajakan kasian penulis .UPIN IPIN DIENDORSE SCARLETTE?");
+
+        // Filsafat
+        daftarBuku[5] = new BukunyaDevi("Filsafat Hidup", "Sukarno", 2015, "Alfabet", "Filsafat", "Sinopsis filsafat hidup.Jangan beli buku bajakan kasian penulis . BELI YAN KANG YUK");
+        daftarBuku[6] = new BukunyaDevi("Pemikiran Filosofis", "Joko Widodo", 2018, "Buku Kita", "Filsafat", "Sinopsis pemikiran filosofis.Jangan beli buku bajakan kasian penulis .HAHHHHHH HAHHH");
+        daftarBuku[7] = new BukunyaDevi("Merenung di Dunia Filsafat", "Pramudya Ananta Toer", 2017, "Pustaka Populer", "Filsafat", "Sinopsis merenung.Jangan beli buku bajakan kasian penulis . INI HARUS");
+        daftarBuku[8] = new BukunyaDevi("Filsafat dan Keberagaman", "Guntur Tamsil", 2016, "Asimetris", "Filsafat", "Sinopsis keberagamanJangan beli buku bajakan kasian penulis  beli lah beli .");
+        daftarBuku[9] = new BukunyaDevi("Menjadi Filsuf", "Kartini", 2013, "Agung", "Filsafat", "Sinopsis menjadi filsuf.Jangan beli buku bajakan kasian penulis .semuanya beli awas dosa lo bajakan");
+
+        // Sejarah
+        daftarBuku[10] = new BukunyaDevi("Sejarah Indonesia", "Eddy Saparudin", 2016, "Erlangga", "Sejarah", "Sinopsis sejarah Indonesia.Jangan beli buku bajakan kasian penulis . Ini jas merah kah");
+        daftarBuku[11] = new BukunyaDevi("Perang Dunia Kedua", "Rudi Wijaya", 2015, "Yayasan Pustaka", "Sejarah", "Sinopsis perang dunia.Jangan beli buku bajakan kasian penulis .jas merah jalangan meninggalkan sejarah");
+        daftarBuku[12] = new BukunyaDevi("Sejarah Peradaban Dunia", "Faisal Abdul", 2017, "Gramedia", "Sejarah", "Sinopsis peradaban dunia.Jangan beli buku bajakan kasian penulis . iya parah nbanget semua aja lu bajak");
+        daftarBuku[13] = new BukunyaDevi("Sejarah Kebangkitan Nasional", "Yusuf Effendi", 2018, "Serba Pustaka", "Sejarah", "Sinopsis kebangkitan nasional.Jangan beli buku bajakan kasian penulis .becanda bajak");
+        daftarBuku[14] = new BukunyaDevi("Jatuh Bangun Kerajaan Majapahit", "Perry Utama", 2020, "Sejarah Indonesia", "Sejarah", "Sinopsis kerajaan Majapahit.Jangan beli buku bajakan kasian penulis .Tuh jangan ga update");
+
+        // Agama
+        daftarBuku[15] = new BukunyaDevi("Al-Qur'an", "K.H. Hasyim Asyari", 2010, "Mizan", "Agama", "Sinopsis Al-Qur'an.Jangan beli buku bajakan kasian penulis . Kurang ternyata namabah apa ya");
+        daftarBuku[16] = new BukunyaDevi("Kisah Nabi Muhammad SAW", "Amien Rais", 2015, "Buku Muslim", "Agama", "Sinopsis kisah nabi.Jangan beli buku bajakan kasian penulis . yayayay ya JANGAN ILMU DUNYAAA MULUK");
+        daftarBuku[17] = new BukunyaDevi("Filosofi Hidup Islam", "Nurcholish Madjid", 2012, "Majelis Ulama Indonesia", "Agama", "Sinopsis filosofi Islam.Jangan beli buku bajakan kasian penulis . BELI BELI");
+        daftarBuku[18] = new BukunyaDevi("Rukun Iman dan Rukun Islam", "Ali Bin Abi Thalib", 2014, "Islamic Press", "Agama", "Sinopsis rukun iman dan Islam.Jangan beli buku bajakan kasian penulis .BELAJAR DONG SEMUANYA INI PESEN BUAT SEMUANYA");
+        daftarBuku[19] = new BukunyaDevi("Hadis dan Hikmah", "Syekh Ali Jaber", 2016, "Islamic Book", "Agama", "Sinopsis hadis dan hikmah.Jangan beli buku bajakan kasian penulis .BELAJARR AGAMA IS A MUST");
+
+        // Psikologi
+        daftarBuku[20] = new BukunyaDevi("Psikologi Manusia", "Psikologina", 2021, "Psikologi Press", "Psikologi", "Sinopsis psikologi manusia. Jangan beli buku bajakan kasian penulis . TUH BELAJAR GUYSS BELI LAH BUKU INI ");
+        daftarBuku[21] = new BukunyaDevi("Mengenali Karakter", "Johan Sumarno", 2022, "Psychology", "Psikologi", "Sinopsis mengenali karakter. Jangan beli buku bajakan kasian penulis . KARAKTER APA KAAK AI?");
+        daftarBuku[22] = new BukunyaDevi("Psikologi Kepribadian", "Rani Kristiani", 2019, "Erlangga", "Psikologi", "Sinopsis kepribadian.Jangan beli buku bajakan kasian penulis . Hmm ini bagus beli dong");
+        daftarBuku[23] = new BukunyaDevi("Psikologi Remaja", "Dr. Surya Saputra", 2020, "Indie Book", "Psikologi", "Sinopsis psikologi remaja.Jangan beli buku bajakan kasian penulis . Bagus nih menarik");
+        daftarBuku[24] = new BukunyaDevi("Kecerdasan Emosional", "Daniel Goleman", 2018, "Mizan", "Psikologi", "Sinopsis kecerdasan emosional.Yang lagi emosi sabar puasa brow. Gitu kaatanya");
+
+        // Politik
+        daftarBuku[25] = new BukunyaDevi("Politik Indonesia", "Puan Maharani", 2016, "Buku Politik", "Politik", "Sinopsis politik Indonesia.Jangan beli buku bajakan kasian penulis . TOLAK RUU TNI. tolak aksikan suara ");
+        daftarBuku[26] = new BukunyaDevi("Reformasi Politik", "Susilo Bambang Yudhoyono", 2015, "Indie Press", "Politik", "Sinopsis reformasi politik.TOLAK RUU TNI ATIATI SEMUANYA hmm jangan lupa");
+        daftarBuku[27] = new BukunyaDevi("Demokrasi di Indonesia", "Megawati Soekarnoputri", 2017, "Buku Demokrasi", "Politik", "Sinopsis demokrasiH. DEMOKRASI ATAU DEMOKRASI INI KALO SEKARANG HMM HMM HMM");
+        daftarBuku[28] = new BukunyaDevi("Politik Global", "Jokowi", 2021, "Alpukat", "Politik", "Sinopsis politik global.politik politik dan politik oke  TAMBAH APA YAAAAAAAAA KALAU MAU NYALIN BANYAK BANGET KURENG SIH KAN INI BOONG BOONGAN");
+        daftarBuku[29] = new BukunyaDevi("Politik Tanah Air", "Prabowo Subianto", 2020, "Sains Politik", "Politik", "Sinopsis politik tanah air. Nih belajar semua Orang Indo harus peduli PEDULI ABISINI UTS");
+
+        // Fiksi
+        daftarBuku[30] = new BukunyaDevi("Laskar Pelangi", "Andrea Hirata", 2005, "Bentang Pustaka", "Fiksi", "Sinopsis Laskar Pelangi.Katanya eh gaboleh gibah beli lah bukunya MASI 9 HMM");
+        daftarBuku[31] = new BukunyaDevi("Aroma Karsa", "Dee Lestari", 2018, "Kompas", "Fiksi", "Sinopsis Aroma Karsa. Apa tuh Kak Aroma Karsa taunya Aroma pandan MAU PE O?" );
+        daftarBuku[32] = new BukunyaDevi("Supernova", "Dewa Eka Prayoga", 2016, "Gramedia", "Fiksi", "Sinopsis Supernova. Lagu gasie ini aku gatau sinopsisnya kalo nyalin iyuee banyak betul");
+        daftarBuku[33] = new BukunyaDevi("Bumi Manusia", "Pramoedya Ananta Toer", 1980, "Pustaka Jaya", "Fiksi", "Sinopsis Bumi Manusia. Ini di bioskop 3 JaM ampe capek duduk waktu esepe sih mayan lah 7 kali nangis emng gembeng ");
+        daftarBuku[34] = new BukunyaDevi("Hujan", "Tere Liye", 2017, "Republik Publisher", "Fiksi", "Sinopsis Hujan.Tirai hujan basahi aku kujalani hidup sendiri eh belum loh dia 10 kata");
+
+        for (BukunyaDevi buku : daftarBuku) {
+            if (buku != null) {
+                buku.tampilkanBuku();
+                int jumlahKata = buku.hitungJumlahKataSinopsis();
+                System.out.println("Jumlah kata sinopsis: " + jumlahKata);
                 System.out.println();
             }
         }
+
         BukunyaDevi bukuSalinan = daftarBuku[0].copy();
-
-
-        System.out.println("buku hasil salinan:");
+        System.out.println("Buku hasil salinan:");
         bukuSalinan.tampilkanBuku();
 
+        System.out.println("Tingkat kesamaan antar buku yang berurutan:");
+        for (int i = 0; i < daftarBuku.length - 1; i++) {
+            double kesamaan = daftarBuku[i].cekTingkatKesamaan(daftarBuku[i + 1]);
+            System.out.println("Buku ke-" + (i + 1) + " & Buku ke-" + (i + 2) + ": " + kesamaan + "%");
+        }
+        
 
- 
-        double kesamaan = daftarBuku[0].cekTingkatKesamaan(daftarBuku[1]);
-        System.out.printf("tingkat kesamaan antara buku pertama dan kedua: %.2f%%\n", kesamaan);
-         // 3.penambahan kodeuntuk  memanggil static method hitungroyalti 1 parameter (otomatis 10%)
-         System.out.println("royalti 10%: rp " + BukunyaDevi.hitungRoyalti(100000)); // hasil: royalti 10%: rp 10000.0
+        // Hitung royalti 10%
+System.out.println("\nRoyalti 10% tiap buku:");
+for (int i = 0; i < daftarBuku.length; i++) {
+    double hargaBuku = 50000 + (i * 1000);
+    double royalti10 = BukunyaDevi.hitungRoyalti(hargaBuku); // yang 1 parameter
+    System.out.println("Buku ke-" + (i + 1) + " | Harga: Rp" + hargaBuku + " | Royalti (10%): Rp" + royalti10);
+}
 
-         // 4.penambahan kodeuntuk memanggil static method hitungroyalti 2 parameter (persen custom)
-         System.out.println("royalti custom 20%: rp " + BukunyaDevi.hitungRoyalti(100000, 20)); // hasil: royalti custom 20%: rp 20000.0
-     }
-    }        
-
-     
+// Hitung royalti custom 15%
+System.out.println("\nRoyalti 15% tiap buku:");
+for (int i = 0; i < daftarBuku.length; i++) {
+    double hargaBuku = 50000 + (i * 1000);
+    double royaltiCustom = BukunyaDevi.hitungRoyalti(hargaBuku, 15); // yang 2 parameter
+    System.out.println("Buku ke-" + (i + 1) + " | Harga: Rp" + hargaBuku + " | Royalti (15%): Rp" + royaltiCustom);
+}
+    }
+}
